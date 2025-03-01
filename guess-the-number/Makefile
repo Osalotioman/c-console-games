@@ -5,3 +5,9 @@ guess: main.c
 
 clean:
 	rm guess
+
+run:
+	./guess
+
+debug:
+	gcc -g -Wall main.c -o guess
